@@ -1,5 +1,5 @@
 {
-    "graph_path": "../data/example.csv",
+    "chart_path": "../data/example.csv",
     "survey_title": "",
     "introduction": "",
     "instruction": ""

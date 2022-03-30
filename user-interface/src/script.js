@@ -1,4 +1,4 @@
-var graph_path;
+var chart_path;
 var survey_title;
 var introduction;
 var instruction;
@@ -10,7 +10,7 @@ var current_quesion;
 // change filename here
 d3.json("../config.json").then(data=>{
     console.log(data)
-    graph_path = data.graph_path;
+    chart_path = data.chart_path;
     survey_title = data.survey_title;
     introduction = data.introduction;
     instruction = data.instruction;
@@ -78,7 +78,7 @@ d3.json("../config.json").then(data=>{
             .style("visibility", "visible");
     }
 
-    d3.csv(graph_path).then(data=>{
+    d3.csv(chart_path).then(data=>{
         console.log(data)
         data_list = data;
     
