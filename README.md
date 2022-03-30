@@ -1,4 +1,4 @@
-# Flowchart to Questionnaire
+# F2Q: Flowchart to Questionnaire
 
 This repository provides the source code for the designer tool that enables users to design a survey via a flowchart, as well as the user interface of the survey.
 
