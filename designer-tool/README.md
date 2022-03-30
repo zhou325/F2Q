@@ -1,6 +1,6 @@
 # Designer-Tool
 
-This is the source code for the designer tool of a survey tree.
+This is the source code for the designer tool for the survey flowchart.
 
 ![interface](screenshots/interface.png)
 
