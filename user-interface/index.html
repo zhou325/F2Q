@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survey User Interface</title>
+    <script type="text/javascript" src="src/d3.v5.js"></script>
+    <script type="text/javascript" src="src/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="src/xml2json.js"></script>
+    <script type="text/javascript" src="src/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+
+<body>
+    
+    <div id="container">
+        <div id="header-container" style="padding:0px;">
+            <div class="row">
+                <div class="col-10">
+                    <div style="padding: 10px;" id="survey-title"></div>
+                </div>
+                <div class="col-2" style="padding-top: 10px; z-index:999;">
+                    <input type="button" class="btn btn-light" id="panic-button" value="Close">
+                </div>
+            </div>
+        </div>        
+        <div id="survey-container">
+            <div class="row">
+                <div class="col-4" id="question-container"></div>
+                <div class="col-8" id="answer-container"></div>
+            </div>
+            <div class="block-container">
+                <div class="block-element">
+                    <input type="button" class="btn btn-outline-dark" id="previous-question" value="Go Back">
+                </div>
+                <div class="block-element">
+                    <input type="button" class="btn btn-outline-dark" id="download-form" value="Download Result">
+                </div>
+                <div class="block-element">
+                    <input type="button" class="btn btn-outline-dark" id="close-window" value="Close">
+                </div>
+            </div>
+                <!-- <form class="contact-form" @submit.prevent="sendEmail">
+                    <div class="row" style="padding:20px">
+
+                    <div class="col-1">
+                        <label>Email</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="email" name="user_email" id="user_email">
+                    </div>
+                    <div class="col-1">
+                        <input type="submit" value="Send">
+                        <input type="button" class="btn btn-outline-dark" id="panic-button" value="Send">
+                    </div>
+                </div> -->
+
+                    <!-- <div name="message">{{message}}</div> -->
+                <!-- </form> -->
+                
+            <!-- <div id="email-container">
+            </div> -->
+            
+        </div>
+        <div id="end-page" class="info-text">
+            Thank you for visiting!
+            <br>
+            (Your answers will not be recorded.)
+        </div>    
+    </div>
+</body>

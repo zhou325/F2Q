@@ -1,0 +1,75 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+
+h4 {
+    color: #fff;
+    font-weight: bold;
+}
+
+#container {
+    padding: 0px;
+}
+
+#intro-page, #starting-page {
+    padding:100px;
+    position: absolute; 
+    top: 0px;
+    left:0px;
+    width: 60%;
+}
+
+.button-container{
+    padding-top: 40px;
+}
+
+.block-container{
+    display: flex;
+}
+
+.block-element {
+    padding: 20px;
+    display:inline-block;
+}
+
+#survey-container {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    visibility:hidden;
+    padding: 100px;
+    width: 80%;
+}
+
+#end-page{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    visibility:hidden;
+    padding: 200px
+}
+
+.question-entry {
+    padding: 20px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: grey;
+}
+
+.answer-entry {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(36,73,119);
+    border-radius: 5px;
+}
+
+#header-container{
+    background-color:rgb(36,73,119) ;
+}
+
+.info-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+}
