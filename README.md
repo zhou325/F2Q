@@ -7,7 +7,7 @@ Download or clone this repository:
 
 ```bash
 git clone https://github.com/zhou325/F2Q.git
-cd Decision_Tree_to_Survey
+cd F2Q
 ```
 
 #### To run the user interface:
