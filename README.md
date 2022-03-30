@@ -1,12 +1,12 @@
-# Decision_Tree_to_Survey
+# Flowchart to Questionnaire
 
-This repository provides the source code for the designer tool that enables users to design a survey via a decision tree, as well as the user interface of the survey.
+This repository provides the source code for the designer tool that enables users to design a survey via a flowchart, as well as the user interface of the survey.
 
 ## Installation 
 Download or clone this repository:
 
 ```bash
-git clone https://github.com/zhou325/Decision_Tree_to_Survey.git
+git clone https://github.com/zhou325/F2Q.git
 cd Decision_Tree_to_Survey
 ```
 
