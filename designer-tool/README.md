@@ -2,7 +2,7 @@
 
 This is the source code for the designer tool for the survey flowchart.
 
-![interface](screenshots/interface.png)
+![interface](screenshots/interface-new.png)
 
 ## User Manual
 
