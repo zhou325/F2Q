@@ -1,0 +1,18 @@
+id,type,children,text_content,text_keyword,color
+q00,q,a10;a11,What's the weather like today?,weather,#9cb6d7
+a10,a,q20,Sunny,S,#e377c2
+a11,a,q21,Rainy,R,#17becf
+q20,q,a30;a31;a32;a33,What is your favorite color,color,#e377c2
+q21,q,a34;a35;a36;a37,What is your favorite food?,food,#17becf
+a30,a,i40,red,,#d62728
+a31,a,i41,purple,,#9467bd
+a32,a,i40,pink,,#d62728
+a33,a,i41,blue,,#9467bd
+a34,a,i42,chocolate,,#2ca02c
+a35,a,i42,sandwiches,,#2ca02c
+a36,a,i43,tacos,,#bcbd22
+a37,a,i43,salads,,#bcbd22
+i40,i,,information 1,,#f9c26f
+i41,i,,information 2,,#f9c26f
+i42,i,,information 3,,#f9c26f
+i43,i,,information 4,,#f9c26f

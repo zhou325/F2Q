@@ -1,0 +1,12 @@
+id,type,children,text_content,text_keyword,color
+q00,q,a10;a11,Have you ever used the product?,,#9cb6d7
+a10,a,q20,Yes,,#9cb6d7
+a11,a,,No,,#f9c26f
+q20,q,a30;a31;a32;a33;a34,How likely are you to recommend it to a friend?,,#9cb6d7
+a30,a,i41,1,,#9cb6d7
+a31,a,i41,2,,#9cb6d7
+a32,a,i40,3,,#9cb6d7
+a33,a,i40,4,,#9cb6d7
+a34,a,i40,5,,#9cb6d7
+i40,i,,Awesome, thanks!,,#f9c26f
+i41,i,,Sorry to hear that.,,#f9c26f

@@ -10,7 +10,7 @@ var current_quesion;
 // change filename here
 d3.json("../config.json").then(data=>{
     console.log(data)
-    chart_path = data.chart_path;
+    chart_path = "../data/" + data.chart_path;
     survey_title = data.survey_title;
     introduction = data.introduction;
     instruction = data.instruction;

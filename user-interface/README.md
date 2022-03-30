@@ -5,7 +5,7 @@ This is the source code for the user interface of the survey.
 ## Configuration
 The interface can be updated via the configuration file `config.json`.
 There are four attributes in the file:
-*  `chart_path`: the file path and name for the input flowchart.
+*  `chart_path`: the file name for the input flowchart (please user the `csv` file). The input chart file needs to be in the directory `data/`.
 * `survey_title`: the title of the survey.
 * `introduction`: the introduction to the survey, which will be shown at the beginning of the survey.
 * `instruction`: the instruction of the survey, which will be shown after the introduction.

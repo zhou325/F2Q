@@ -1,0 +1,15 @@
+id,type,children,text_content,text_keyword,color
+q00,q,a10;a11,Are you using the latest version of the software?,,#9cb6d7
+a10,a,q20,Yes,,#9cb6d7
+a11,a,q21,No,,#e377c2
+q20,q,a30;a31,Deactivate all the plugins. Is the problem still there?,,#9cb6d7
+q21,q,a33;a32,Update to the latest version. Is the problem still there?,,#9cb6d7
+a30,a,q50,Yes,,#9cb6d7
+a31,a,i40,No,,#f9c26f
+a32,a,q20,Yes,,#e377c2
+a33,a,i40,No,,#f9c26f
+i40,i,,Awesome!,,#f9c26f
+q50,q,a60;a61,Switch to the default setting. Is the problem still there?,,#9cb6d7
+a60,a,i80,Yes,,#9cb6d7
+a61,a,i40,No,,#f9c26f
+i80,i,,There is a bug in the software.,,#f9c26f
