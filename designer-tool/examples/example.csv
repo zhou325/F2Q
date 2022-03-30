@@ -1,0 +1,18 @@
+id,type,children,text_content,text_keyword,color
+q00,q,a10;a11,What is your gender?,gender,#9cb6d7
+a10,a,q20,Female,F,#e377c2
+a11,a,q21,Male,M,#17becf
+q20,q,a30;a31;a32;a33,What is your major?,major,#e377c2
+q21,q,a34;a35;a36;a37,Which year are you in college?,year,#17becf
+a30,a,i40,Computer science,CS,#d62728
+a31,a,i41,Business,,#9467bd
+a32,a,i40,Social science,,#d62728
+a33,a,i41,Others,,#9467bd
+a34,a,i42,Freshman,,#2ca02c
+a35,a,i42,Sophomore,,#2ca02c
+a36,a,i43,Junior,,#bcbd22
+a37,a,i43,Senior,,#bcbd22
+i40,i,,information 1,,#f9c26f
+i41,i,,information 2,,#f9c26f
+i42,i,,information 3,,#f9c26f
+i43,i,,information 4,,#f9c26f

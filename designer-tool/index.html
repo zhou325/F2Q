@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Survey Tree Designer Tool</title>
+</head>
+
+<body>
+        <div id="header-group">
+            <div  class="header-container">
+                <h1 id="header-text">Survey Tree Designer Tool</h1>
+            </div>
+            <div id="selector-container" class="header-container"></div>
+            <div class="header-container">
+                <form method="post" id="upload-mapper" enctype="multipart/form-data" action="" >
+                      <input type="file" style="display:none" id="graph-file">
+                      <input type="button" class="btn btn-light ui-form-button" id="import-graph" value="Import Graph">
+                </form>
+            </div>
+            <div class="header-container">
+                <input class="form-control" type="text" placeholder="Input file name" id="export-filename">
+            </div>
+            <div class="header-container">
+                <input type="button" class="btn btn-light ui-form-button" id="export-graph" value="Export Graph">
+            </div>
+        </div>
+    
+    
+    <div id="graph-container">
+        <svg id="graph-svg">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="2" orient="auto">
+                    <polygon fill="grey" points="0 0, 3 2, 0 4" />
+                </marker>
+            </defs>
+        </svg>
+        <div id="element-input">
+            <div class="row input-container">
+                <div class="col-2">Content</div>
+                <div class="col-10">
+                    <textarea id="input-content" name="input-content" cols="40" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="row input-container">
+                <div class="col-2">Keyword</div>
+                <div class="col-10">
+                    <input type="text" id="input-keyword" name="input-keyword">
+                </div>
+            </div>
+            <div class="row input-container">
+                <div class="col-2">Color</div>
+                <div class="col-10" id="input-color">
+                </div>
+            </div>
+            <div class="input-container">
+                <input type="button" class="btn btn-outline-dark ui-form-button" id="save-input" value="Save">
+            </div>
+            <div class="input-container">
+                <input type="button" class="btn btn-outline-dark ui-form-button" id="remove-element" value="Delete Element">
+            </div>
+        </div>
+        <div id="element-display">
+            <div class="row input-container">
+                <div class="col-4">Content:</div>
+                <div class="col-8" id="element-display-content"></div>
+            </div>
+            <div class="row input-container">
+                <div class="col-4">Keyword:</div>
+                <div class="col-8" id="element-display-keyword"></div>
+            </div>
+        </div>
+        <div id="edge-input">
+            <div class="row input-container">
+                <div class="col-6">
+                    <input type="button" class="btn btn-outline-dark ui-form-button" id="remove-edge" value="Delete Edge">
+                </div>
+                <div class="col-6">
+                    <input type="button" class="btn btn-outline-dark ui-form-button" id="cancel-remove-edge" value="Cancel">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="src/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="src/bootstrap.min.js"></script>
+<script type="text/javascript" src="src/d3.v5.js"></script>
+<script type="text/javascript" src="src/graph.js"></script>
+<script type="text/javascript" src="src/script.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/styles.css"/>
